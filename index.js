@@ -6,3 +6,16 @@ hamburIcon.addEventListener('click',()=>{
 
 })
 
+
+//Modal
+ const registrarse =document.querySelector('#regis')
+const modalbg=document.querySelector('.modal-background')
+ const modal=document.querySelector('.modal')
+
+ registrarse.addEventListener('click',()=>{
+     modal.classList.add('is-active')
+ })
+
+ modalbg.addEventListener('click',()=>{
+     modal.classList.remove('is-active')
+ })
