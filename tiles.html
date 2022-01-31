@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    </head>
+    <body>
+        <!--
+    is-ancestor (contenedor de todos)
+    is-parent==>contener a los hijos(is-child)
+    is-child ==> p,img,link,-->
+
+    <div class="tile is-ancestor"><!--Contenedor Abuelo contiene todo-->
+        <div class="tile is-4 is-parent is-vertical"><!--Contenedor padre de la primera columna -->
+             <div class="tile is-child box">
+                 <p class="title">UNO</p>
+             </div>
+             <div class="tile is-child box">
+                <p class="title">DOS</p>
+
+
+             </div>
+        </div>
+        <div class="tile is-parent"><!--Contenedor padre de la segunda columna -->
+            <div class="tile is-child box">
+                <p class="title">TRES</p>
+            </div>
+        </div>
+
+
+    </div>
+    </body>
+</html>
